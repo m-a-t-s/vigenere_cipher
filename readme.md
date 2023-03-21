@@ -1,7 +1,16 @@
-In this implementation, the vigenere_cipher() function takes two parameters: message and keyword. The message parameter is the message to be encrypted, and the keyword parameter is the keyword used to generate the shifts.
+To use this code, clone the repo and run it using Python. The program will prompt the user to enter the message to encrypt and the keyword. It will then encrypt the message using the Vigenère Cipher and print the encrypted message.
 
-The function initializes an empty string to store the encrypted message, and then loops through each letter in the input message. For each letter, the function gets the corresponding letter of the keyword, applies the shift, and adds the encrypted letter to the encrypted_message string.
+Here are the instructions for installation and usage:
 
-Finally, the function returns the encrypted message.
+Installation:
 
-To use this implementation, you can call the vigenere_cipher() function with a message and a keyword. The function will return the encrypted message, which you can then use as needed.
+1. Install Python if you don't already have it installed. You can download Python from the official website: https://www.python.org/downloads/
+2. Save the code to a file (e.g. vigenere_cipher.py).
+
+Usage:
+
+1. Open a command prompt or terminal window.
+2. Navigate to the directory where the vigenere_cipher.py file is saved.
+3. Run the command python vigenere_cipher.py.
+4. Enter the message to encrypt and the keyword when prompted.
+5. The program will encrypt the message using the Vigenère Cipher and print the encrypted message.

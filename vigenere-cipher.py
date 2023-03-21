@@ -25,7 +25,13 @@ def vigenere_cipher(message, keyword):
     
     return encrypted_message
 
-# Example usage:
-# Encrypt the message "HELLO WORLD" with the keyword "LEMON"
-encrypted_message = vigenere_cipher("HELLO WORLD", "LEMON")
-print(encrypted_message)  # Output: RIJVS UYVJN
+if __name__ == '__main__':
+    # Get the message and keyword from the user
+    message = input("Enter the message to encrypt: ")
+    keyword = input("Enter the keyword: ")
+    
+    # Encrypt the message using the Vigenère Cipher
+    encrypted_message = vigenere_cipher(message, keyword)
+    
+    # Print the encrypted message
+    print("Encrypted message:", encrypted_message)
